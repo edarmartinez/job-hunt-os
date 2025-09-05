@@ -1,0 +1,25 @@
+# Python venv
+.venv/
+env/
+
+# Bytecode caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env files
+.env
+.env.*
+
+# Databases
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/

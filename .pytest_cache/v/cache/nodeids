@@ -1,0 +1,9 @@
+[
+  "tests/test_applications.py::test_auth_required",
+  "tests/test_applications.py::test_create_and_list",
+  "tests/test_applications.py::test_export_csv",
+  "tests/test_applications.py::test_filters_and_pagination",
+  "tests/test_applications.py::test_get_update_delete",
+  "tests/test_applications.py::test_salary_bounds_and_enums",
+  "tests/test_health.py::test_health"
+]
