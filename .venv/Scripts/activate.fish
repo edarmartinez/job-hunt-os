@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'C:\Users\edar1\OneDrive\Desktop\Python\job-hunt-os\.venv'
+set -gx VIRTUAL_ENV 'C:\Code\job-hunt-os\.venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH

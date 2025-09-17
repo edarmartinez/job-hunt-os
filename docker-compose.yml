@@ -1,7 +1,9 @@
-version: "3.9"
+# docker-compose.yml
 services:
   db:
     image: postgres:16
+    container_name: jobhunt-postgres
+    restart: unless-stopped
     environment:
       POSTGRES_USER: app
       POSTGRES_PASSWORD: app
@@ -10,5 +12,11 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d jobhunt"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
 volumes:
-  pgdata: {}
+  pgdata:

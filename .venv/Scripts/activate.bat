@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\edar1\OneDrive\Desktop\Python\job-hunt-os\.venv"
+set "VIRTUAL_ENV=C:\Code\job-hunt-os\.venv"
 
 if not defined PROMPT set PROMPT=$P$G
 
