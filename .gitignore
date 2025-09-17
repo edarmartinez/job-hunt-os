@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# --- Environment files / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Local databases / artifacts ---
+*.sqlite
+*.db
+jobhunt.db
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Docker volumes (local-only) ---
+pgdata/
