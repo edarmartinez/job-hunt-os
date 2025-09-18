@@ -1,4 +1,1 @@
-{
-  "tests/test_applications.py::TestClient": true,
-  "tests/test_health.py::TestClient": true
-}
+{}
